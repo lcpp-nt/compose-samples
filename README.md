@@ -2,10 +2,12 @@
 <img src="readme/samples_montage.gif" alt="Jetpack Compose Samples" width="824" />
 
 CN：本项目fork自Android官方开源项目(https://github.com/android)[android]，更偏向于使用中文注释修改（由于我的英文实在有点差）
+
 EN：This project is forked from the official Android open source project(https://github.com/android)[android]. It is more inclined to use Chinese comments to modify (because my English is really poor).
 
 CN:这个仓库包含了一组独立的Android Studio项目来帮助你了解
 在Android中进行Compose。每个示例演示了不同的用例、复杂度级别和api。
+
 EN:This repository contains a set of individual Android Studio projects to help you learn about
 Compose in Android. Each sample demonstrates different use cases, complexity levels and APIs.
 
@@ -18,73 +20,73 @@ You can clone this repository or import the
 project from Android Studio following the steps
 [here](https://developer.android.com/jetpack/compose/setup#sample).
 
-🧬 Samples
+🧬 示例（Samples）
 ------------
 
 | Project | |
 |:-----|---------|
-|  <br><img src="readme/jetnews.png" alt="JetNews" width="240"></img> <br><br> A sample blog post viewer that demonstrates the use of Compose with a typical Material app and real-world architecture. <br><br> • Medium complexity<br>• Varied UI<br>• Light & dark themes<br>• Resource loading<br>• UI Testing <br><br> **[> Browse](JetNews/)**<br><br> | <img src="readme/screenshots/JetNews.png" width="320" alt="Jetnews sample demo"> |
+|  <br><img src="readme/jetnews.png" alt="JetNews" width="240"></img> <br><br> 博客文章查看器 A sample blog post viewer that demonstrates the use of Compose with a typical Material app and real-world architecture. <br><br> • Medium complexity<br>• Varied UI<br>• Light & dark themes<br>• Resource loading<br>• UI Testing <br><br> **[> Browse](JetNews/)**<br><br> | <img src="readme/screenshots/JetNews.png" width="320" alt="Jetnews sample demo"> |
 |  |  |
-|  <br><img src="readme/jetchat.png" alt="Jetchat" width="240"></img> <br><br>A sample chat app that focuses on UI state patterns and text input.<br><br>• Low complexity<br>• Material Design 3 theme and Material You dynamic color<br>• Resource loading<br>• Back button handling<br>• Integration with Architecture Components: Navigation, Fragments, LiveData, ViewModel<br>• Animation<br>• UI Testing<br><br>**[> Browse](Jetchat/)** <br><br> | <img src="readme/screenshots/Jetchat.png" width="320" alt="Jetchat sample demo">|
+|  <br><img src="readme/jetchat.png" alt="Jetchat" width="240"></img> <br><br> UI状态模式和文本输入的示例聊天应用程序 A sample chat app that focuses on UI state patterns and text input.<br><br>• Low complexity<br>• Material Design 3 theme and Material You dynamic color<br>• Resource loading<br>• Back button handling<br>• Integration with Architecture Components: Navigation, Fragments, LiveData, ViewModel<br>• Animation<br>• UI Testing<br><br>**[> Browse](Jetchat/)** <br><br> | <img src="readme/screenshots/Jetchat.png" width="320" alt="Jetchat sample demo">|
 |  |  |
-| <br><img src="readme/jetsnack.png" alt="Jetsnack" width="240"></img> <br><br>Jetsnack is a sample snack ordering app built with Compose.<br><br>• Medium complexity<br>• Custom design system<br>• Custom layouts<br>• Animation<br><br>**[> Browse](Jetsnack/)** <br><br>  | <img src="readme/screenshots/Jetsnack.png" width="320" alt="Jetsnack sample demo">|
+| <br><img src="readme/jetsnack.png" alt="Jetsnack" width="240"></img> <br><br>零食订购应用示例 Jetsnack is a sample snack ordering app built with Compose.<br><br>• Medium complexity<br>• Custom design system<br>• Custom layouts<br>• Animation<br><br>**[> Browse](Jetsnack/)** <br><br>  | <img src="readme/screenshots/Jetsnack.png" width="320" alt="Jetsnack sample demo">|
 |  |  |
-| <br><img src="readme/jetcaster.png" alt="Jetcaster" width="240"></img> <br><br>A sample podcast app that features a full-featured, Redux-style architecture and showcases dynamic themes.<br><br>• Advanced sample<br>• Dynamic theming using podcast artwork<br>• Image fetching<br>• [`WindowInsets`](https://developer.android.com/reference/kotlin/android/view/WindowInsets) support<br>• Coroutines<br>• Local storage with Room<br><br>**[> Browse](Jetcaster/)** <br><br>  | <img src="readme/screenshots/Jetcaster.png" width="320" alt="Jetcaster sample demo">|
+| <br><img src="readme/jetcaster.png" alt="Jetcaster" width="240"></img> <br><br> 播客应用程序，具有全功能，redux风格的架构，并展示动态主题 A sample podcast app that features a full-featured, Redux-style architecture and showcases dynamic themes.<br><br>• Advanced sample<br>• Dynamic theming using podcast artwork<br>• Image fetching<br>• [`WindowInsets`](https://developer.android.com/reference/kotlin/android/view/WindowInsets) support<br>• Coroutines<br>• Local storage with Room<br><br>**[> Browse](Jetcaster/)** <br><br>  | <img src="readme/screenshots/Jetcaster.png" width="320" alt="Jetcaster sample demo">|
 |  |  |
-| <br><img src="readme/reply.png" alt="Reply" width="240"></img>  <br><br>A compose implementation of the Reply material study, an email client app that focuses on adaptive design for mobile, tablets and foldables. It also showcases brand new Material design 3 theming, dynamic colors and navigation components.<br><br>• Medium complexity<br>• Adaptive UI for phones, tablet and desktops<br>• Foldable support<br>• Material 3 theming & Components<br>• Dynamic colors and Light/Dark theme support<br><br>**[> Browse](Reply/)** <br><br>  | <img src="readme/screenshots/Reply.png" width="320" alt="Reply sample demo">|
+| <br><img src="readme/reply.png" alt="Reply" width="240"></img>  <br><br> 电子邮件客户端应用程序，专注于移动，平板电脑和可折叠的适应性设计。它还展示了全新的Material design 3主题，动态颜色和导航组件 A compose implementation of the Reply material study, an email client app that focuses on adaptive design for mobile, tablets and foldables. It also showcases brand new Material design 3 theming, dynamic colors and navigation components.<br><br>• Medium complexity<br>• Adaptive UI for phones, tablet and desktops<br>• Foldable support<br>• Material 3 theming & Components<br>• Dynamic colors and Light/Dark theme support<br><br>**[> Browse](Reply/)** <br><br>  | <img src="readme/screenshots/Reply.png" width="320" alt="Reply sample demo">|
 |  |  |
-| <br><img src="readme/jetlagged_heading.png" alt="JetLagged" width="240"></img>  <br><br>A sample sleep tracker app, showcasing how to create custom layouts and graphics in Compose<br><br>• Custom Layouts<br>• Graphs with Paths<br><br>**[> Browse](JetLagged/)** <br><br>  | <img src="JetLagged/screenshots/JetLagged_Full.png" width="320" alt="JetLagged sample demo">|
+| <br><img src="readme/jetlagged_heading.png" alt="JetLagged" width="240"></img>  <br><br>一个睡眠追踪应用示例，展示了如何在Compose中创建自定义布局和图形 A sample sleep tracker app, showcasing how to create custom layouts and graphics in Compose<br><br>• Custom Layouts<br>• Graphs with Paths<br><br>**[> Browse](JetLagged/)** <br><br>  | <img src="JetLagged/screenshots/JetLagged_Full.png" width="320" alt="JetLagged sample demo">|
 
 🧬 Additional samples
 ------------
 
 | Project | |
 |:-----|---------|
-| <br><img src="readme/nia.png" alt="Now in Android" width="240"></img>  <br><br>An app for keeping up to date with the latest news and developments in Android.<br><br>• [Jetpack Compose](https://developer.android.com/jetpack/compose) first app.<br>• Implements the recommended Android [Architecture Guidelines](https://developer.android.com/topic/architecture) <br>• Integrates [Jetpack Libraries](https://developer.android.com/jetpack) holistically in the context of a real world app<br><br><a href="https://play.google.com/store/apps/details?id=com.google.samples.apps.nowinandroid"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="70"></a><br>**[> Browse](https://github.com/android/nowinandroid)** <br><br>  | <img src="readme/screenshots/NiA.png" width="320" alt="Now In Android Github Repository">|
+| <br><img src="readme/nia.png" alt="Now in Android" width="240"></img>  <br><br>保持最新的新闻和发展在Android An app for keeping up to date with the latest news and developments in Android.<br><br>• [Jetpack Compose](https://developer.android.com/jetpack/compose) first app.<br>• Implements the recommended Android [Architecture Guidelines](https://developer.android.com/topic/architecture) <br>• Integrates [Jetpack Libraries](https://developer.android.com/jetpack) holistically in the context of a real world app<br><br><a href="https://play.google.com/store/apps/details?id=com.google.samples.apps.nowinandroid"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="70"></a><br>**[> Browse](https://github.com/android/nowinandroid)** <br><br>  | <img src="readme/screenshots/NiA.png" width="320" alt="Now In Android Github Repository">|
 |  |  |
 | <br><img src="readme/material_catalog.png" alt="Material Catalog" width="240"></img>  <br><br>A catalog of Material Design components and features available in Jetpack Compose. See how to implement them and how they look and behave on real devices.<br><br>• Lives in AOSP—always up to date<br>• Uses the same samples as API reference docs<br>• Theme picker to change Material Theming values at runtime<br>• Links to guidelines, docs, source code, and issue tracker<br><br><a href="https://play.google.com/store/apps/details?id=androidx.compose.material.catalog"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="70"></a><br>**[> Browse on AOSP](https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:compose/integration-tests/material-catalog)** <br><br>  | <img src="readme/screenshots/Material_Catalog.png" width="320" alt="Material Catalog sample demo">|
 
 
-## High level features 
+## 高级特征（High level features ）
 
 Looking for a sample that has the following features?
 
-### Custom Layouts
+### 自定义布局（Custom Layouts
 * [Jetnews: Interests Screen](https://github.com/android/compose-samples/blob/ee198110d8a7575da281de9bd0f84e91970468ca/JetNews/app/src/main/java/com/example/jetnews/ui/interests/InterestsScreen.kt#L428)
 * [Jetchat: AnimatedFabContent](https://github.com/android/compose-samples/blob/ee198110d8a7575da281de9bd0f84e91970468ca/Jetchat/app/src/main/java/com/example/compose/jetchat/components/AnimatingFabContent.kt#L101)
 * [Jetsnack: Grid](https://github.com/android/compose-samples/blob/73d7f25815e6936e0e815ce975905a6f10744c36/Jetsnack/app/src/main/java/com/example/jetsnack/ui/components/Grid.kt#L27)
 * [Jetsnack: CollapsingImageLayout](https://github.com/android/compose-samples/blob/main/Jetsnack/app/src/main/java/com/example/jetsnack/ui/snackdetail/SnackDetail.kt)
 
-### Theming
+### 主题（Theming
 * [Jetchat: Material3](https://github.com/android/compose-samples/blob/main/Jetchat/app/src/main/java/com/example/compose/jetchat/theme/Themes.kt#L91)
 * [Jetcaster: Custom theme based on cover art](https://github.com/android/compose-samples/blob/main/Jetcaster/app/src/main/java/com/example/jetcaster/util/DynamicTheming.kt)
 * [Jetsnack: Custom Design System](https://github.com/android/compose-samples/blob/main/Jetsnack/app/src/main/java/com/example/jetsnack/ui/theme/Theme.kt)
 
-### Animations
+### 动画（Animations
 * [Jetsurvey: AnimatedContent](https://github.com/android/compose-samples/pull/842)
 * [Jetcaster: Animated theme colors](https://github.com/android/compose-samples/blob/69e9d862b5ffb321064364d7883e859db6daeccd/Jetcaster/app/src/main/java/com/example/jetcaster/util/DynamicTheming.kt)
 * [Jetsnack: Animating Bottom Barl](https://github.com/android/compose-samples/blob/main/Jetsnack/app/src/main/java/com/example/jetsnack/ui/home/Home.kt)
 
-### Text
+### 文本（Text
 * [Jetchat: Downloadable Fonts](https://github.com/android/compose-samples/pull/787)
 
-### Large Screens
+### 大屏（Large Screens
 * [Jetcaster - Supporting Pane](https://github.com/android/compose-samples/blob/3dbbf0912b57dacefcfb79191a2d7d6b053dadb8/Jetcaster/app/src/main/java/com/example/jetcaster/ui/home/Home.kt#L282)
 * [Jetnews - Window Size Classes](https://github.com/android/compose-samples/blob/69e9d862b5ffb321064364d7883e859db6daeccd/JetNews/app/src/main/java/com/example/jetnews/ui/MainActivity.kt#L36)
 
-### TV
+### 电视（TV
 * [Jetcaster - TV](https://github.com/android/compose-samples/tree/3dbbf0912b57dacefcfb79191a2d7d6b053dadb8/Jetcaster/tv-app)
 
-### Wear
+### 手表（Wear
 * [Jetcaster - Wear](https://github.com/android/compose-samples/tree/3dbbf0912b57dacefcfb79191a2d7d6b053dadb8/Jetcaster/wear)
 
-## Formatting
+## 格式化（Formatting
 
 To automatically format all samples: Run `./scripts/format.sh`
 To check one sample for errors: Navigate to the sample folder and run `./gradlew --init-script buildscripts/init.gradle.kts spotlessCheck`
 To format one sample: Navigate to the sample folder and run `./gradlew --init-script buildscripts/init.gradle.kts spotlessApply`
 
-## Updates
+## 更新（Updates
 
 To update dependencies to their new stable versions, run:
 
