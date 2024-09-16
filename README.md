@@ -1,7 +1,7 @@
 # Jetpack Compose 示例（Samples
 <img src="readme/samples_montage.gif" alt="Jetpack Compose Samples" width="824" />
 
-本项目fork自Android官方开源项目(https://github.com/android)[android]，更偏向于使用中文注释修改（由于我的英文实在有点差）（This project is forked from the official Android open source project(https://github.com/android)[android]. It is more inclined to use Chinese comments to modify (because my English is really poor).
+本项目fork自Android官方开源项目[android](https://github.com/android)，更偏向于使用中文注释修改（由于我的英文实在有点差）（This project is forked from the official Android open source project[android](https://github.com/android). It is more inclined to use Chinese comments to modify (because my English is really poor).
 
 此代码库包含一组单独的 Android Studio 项目，可帮助您了解 Android 中的 Compose。每个示例都演示了不同的用例、复杂程度和 API。（This repository contains a set of individual Android Studio projects to help you learn about
 Compose in Android. Each sample demonstrates different use cases, complexity levels and APIs.
